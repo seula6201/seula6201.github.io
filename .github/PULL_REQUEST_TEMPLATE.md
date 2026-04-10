@@ -29,18 +29,53 @@ https://[내 GitHub ID].github.io
 
 ---
 
-## [work02] 기본 설정
+## [work02] 기본 설정 1 — Codespace 활용
 
 > 가이드: `02-config.md`
 
 **배포 URL**
 https://[내 GitHub ID].github.io
 
+**Codespace 이름**
+(예: urban-disco-abc1234)
+
 **완료한 작업**
+- [ ] Codespace 생성 및 접속 확인
 - [ ] `_config.yml` — `title`, `email`, `description`, `author` 수정
 - [ ] `_config.yml` — `url` 본인 GitHub 주소로 수정 확인
 - [ ] `_data/settings.yml` — 소셜 미디어 링크 설정
 - [ ] `_data/settings.yml` — 헤더 로고 및 푸터 텍스트 설정
+- [ ] `dev` → `gh-pages` merge 및 배포 확인
+
+**문제가 있었다면 적어주세요**
+(없으면 삭제)
+
+---
+
+## [work03] 기본 설정 2 — 로컬 작업 활용
+
+> 가이드: `02-config.md`
+
+**배포 URL**
+https://[내 GitHub ID].github.io
+
+**로컬 환경 버전 기록**
+
+| 항목 | 버전 |
+|------|------|
+| Ruby | (예: 3.2.2) |
+| gem | (예: 3.4.10) |
+| Jekyll | (예: 4.3.2) |
+| Bundler | (예: 2.4.10) |
+
+**완료한 작업**
+- [ ] Ruby 설치 및 버전 확인 (`ruby -v`)
+- [ ] gem 버전 확인 (`gem -v`)
+- [ ] Jekyll, Bundler 설치 (`gem install jekyll bundler`)
+- [ ] 저장소 clone 및 `bundle install`
+- [ ] 로컬 서버 실행 확인 (`bundle exec jekyll serve`)
+- [ ] `_config.yml` — Disqus shortname 설정 (`disqus_shortname`)
+- [ ] `_config.yml` — Formspree 엔드포인트 설정 (`formspree_endpoint`)
 - [ ] `_data/settings.yml` — 라이트/다크 모드 기본값 설정
 - [ ] `dev` → `gh-pages` merge 및 배포 확인
 
@@ -49,7 +84,7 @@ https://[내 GitHub ID].github.io
 
 ---
 
-## [work03] 섹션 구성
+## [work04] 섹션 구성
 
 > 가이드: `03-sections.md`
 
@@ -71,7 +106,7 @@ https://[내 GitHub ID].github.io
 
 ---
 
-## [work04] 기본 섹션 콘텐츠 작성
+## [work05] 기본 섹션 콘텐츠 작성
 
 > 가이드: `04-content.md`
 
@@ -91,7 +126,7 @@ https://[내 GitHub ID].github.io
 
 ---
 
-## [work05] 이력서 섹션
+## [work06] 이력서 섹션
 
 > 가이드: `05-resume.md`
 
@@ -112,7 +147,7 @@ https://[내 GitHub ID].github.io
 
 ---
 
-## [work06] 포트폴리오 항목 관리
+## [work07] 포트폴리오 항목 관리
 
 > 가이드: `06-portfolio.md`
 
@@ -134,7 +169,7 @@ https://[내 GitHub ID].github.io
 
 ---
 
-## [work07] 블로그 포스트 작성
+## [work08] 블로그 포스트 작성
 
 > 가이드: `07-blog.md`
 
@@ -156,7 +191,7 @@ https://[내 GitHub ID].github.io
 
 ---
 
-## [work08] 디자인 커스터마이징
+## [work09] 디자인 커스터마이징
 
 > 가이드: `08-design.md`
 
@@ -179,7 +214,7 @@ https://[내 GitHub ID].github.io
 
 ---
 
-## [work09] 최적화 및 마무리
+## [work10] 최적화 및 마무리
 
 > 가이드: `09-optimize.md`
 
