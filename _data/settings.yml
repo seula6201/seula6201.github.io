@@ -20,17 +20,9 @@ header:
 
 ### Social
 social:
-  - title: "Twitter"
-    icon: "fab fa-twitter"
-    url: "http://twitter.com"
-
-  - title: "Dribbble"
-    icon: "fab fa-dribbble"
-    url: "http://dribbble.com"
-
-  - title: "Behance"
-    icon: "fab fa-behance"
-    url: "http://behance.com"
+  - title: "Linkedin"
+    icon: "fab fa-linkedin"
+    url: "https://kr.linkedin.com/"
 
 ### Footer
 footer:
@@ -39,16 +31,10 @@ footer:
 
 ### Portfolio Filters Settings
 portfolio:
-  layout: "list" # select works layout options: "Grid" or "List"
+  layout: "grid"   # "grid" 또는 "list"
   filters:
-    - name: "UI UX Design"
-      slug: "ui-ux-design"
+    - name: "전체"
+      slug: "all"
 
-    - name: "Photography"
-      slug: "photography"
-
-    - name: "Development"
-      slug: "development"
-
-    - name: "Branding"
-      slug: "branding"
+    - name: "프로젝트"
+      slug: "Project"

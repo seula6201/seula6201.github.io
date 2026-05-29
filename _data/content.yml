@@ -9,20 +9,20 @@ hero:
   image_alt: "김슬아 프로필 사진"
   before_title: "안녕하세요, <b>저는</b>"
   title: "<b>김슬아</b>"
-  after_title: "<strong>보안 엔지니어 지망생</strong>입니다"
-  description: "네트워크 보안에 관심있는 사이버보안과 2학년입니다. 환경 구축과 도구 사용을 통해 역량을 키우고 있습니다."
+  after_title: "<strong>네트워크 엔지니어 지망생</strong>입니다"
+  description: "네트워크 보안에 관심있는 사이버보안과 2학년입니다. 네트워크 구축과 도구 사용을 통해 역량을 키우고 있습니다."
   button1:
-    label: "이력서 보기"
+    label: "활동이력 보기"
     link: "#resume-section"
   button2:
     label: "포트폴리오 보기"
-    link: "#portfolio-section"
+    link: "#works-section"
   bg_title: "Cyber Security"
   info:
-    - num: "2 <strong>+</strong>"
-      value: "Years of <strong>Experience</strong>"
+    # - num: "2 <strong>+</strong>"
+    #   value: "Years of <strong>Experience</strong>"
 
-    - num: "4"
+    - num: "1"
       value: "Completed <strong>Projects</strong>"
 
 ### Services [ services ]
@@ -52,44 +52,42 @@ services:
 
 ### Skills [ skills ]
 skills:
-  title: "기술 역량"
-  subtitle: "보유 <b>스킬</b>"
+  title: "보유 역량"
   bg_title: "Skills"
 
   column1:
     items:
-      - label: "Python"
-        text: "공격 스크립트, 데이터 처리"
-        value: "60"
-
-      - label: "Linux / Bash"
-        text: "서버 관리, 쉘 스크립팅, 네트워크 도구 활용"
+      - label: "Network"
+        text: "OPNsense, 방화벽 정책, IDS/IPS, 네트워크 구성"
         value: "75"
+
+      - label: "Linux"
+        text: "Ubuntu Server 운영, Shell Script, 네트워크 도구 활용"
+        value: "70"
 
   column2:
     items:
-      - label: "네트워크 보안"
-        text: "패킷 분석, 방화벽 설정, IDS/IPS 운영"
-        value: "70"
-
-      - label: "웹 취약점 분석"
-        text: "OWASP Top 10, Burp Suite, SQL Injection"
+      - label: "SIEM / Monitoring"
+        text: "Wazuh 로그 분석, 탐지 룰 설정, Discord 알림"
         value: "65"
+
+      - label: "Git / GitHub"
+        text: "Branch 관리, Pull Request, GitHub Pages 배포"
+        value: "60"
 
   column3:
     items:
-      - label: "데이터베이스"
-        text: "MySQL, SQLite, 기본 쿼리"
-        value: "40"
+      - label: "Python"
+        text: "기초 문법, 자동화 스크립트 수정 및 활용"
+        value: "55"
 
-      - label: "Git / GitHub"
-        text: "버전 관리, 협업 워크플로우, GitHub Pages 배포"
-        value: "60"
+      - label: "Database"
+        text: "SQLD 수준의 SQL, MySQL, SQLite"
+        value: "50"
 
 ### Resume [ resume ]
 resume:
   title: "활동이력"
-  subtitle: "MY <b>Story</b>"
   bg_title: "History"
 
   education:
@@ -101,6 +99,10 @@ resume:
 
       - name: "리눅스마스터 2급"
         subname: "한국정보통신진흥협회"
+        period: "2025"
+
+      - name: "공동주택IT안전관리사 2급"
+        subname: "한국 홈네트워크 안전관리협회"
         period: "2025"
 
       - name: "이수: 스마트 제조 보안"
@@ -121,7 +123,7 @@ resume:
         period: "2026 <b> - 진행중"
         text: "SIEM : OPNsense와 Wazuh를 활용한 탐지 및 알림 시스템 구축"
 
-      - name: "논문: XZ Utils 백도어 메커니즘 분석과 대응 방안"
+      - name: "논문: XZ Utils 백도어 공격 메커니즘 분석과 대응 방안"
         subname: "한국정보통신학회"
         period: "2026"
         text: "공급망 공격 사례 분석 및 보안 대응 방안 연구"
@@ -133,37 +135,37 @@ resume:
 
 
 
-### Testimonials [ testimonials ]
-testimonials:
-  title: "Testimonials"
-  subtitle: "what <b>Customers Say</b>"
-  bg_title: "Reviews"
+# ### Testimonials [ testimonials ]
+# testimonials:
+#   title: "Testimonials"
+#   subtitle: "what <b>Customers Say</b>"
+#   bg_title: "Reviews"
 
-  items:
-    - image: "assets/img/testimonials/testi4-2.jpg"
-      name: "Barbara Wilson"
-      role: "CEO Company"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+#   items:
+#     - image: "assets/img/testimonials/testi4-2.jpg"
+#       name: "Barbara Wilson"
+#       role: "CEO Company"
+#       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
-    - image: "assets/img/testimonials/testi4-1.jpg"
-      name: "Charlie Smith"
-      role: "Designer"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+#     - image: "assets/img/testimonials/testi4-1.jpg"
+#       name: "Charlie Smith"
+#       role: "Designer"
+#       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
-    - image: "assets/img/testimonials/testi4-4.jpg"
-      name: "Roy Wang"
-      role: "Manager GYM"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+#     - image: "assets/img/testimonials/testi4-4.jpg"
+#       name: "Roy Wang"
+#       role: "Manager GYM"
+#       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
-    - image: "assets/img/testimonials/testi4-3.jpg"
-      name: "Jennifer Smith"
-      role: "CEO &amp; Founder"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+#     - image: "assets/img/testimonials/testi4-3.jpg"
+#       name: "Jennifer Smith"
+#       role: "CEO &amp; Founder"
+#       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
-    - image: "assets/img/testimonials/testi4-5.jpg"
-      name: "Paul Freeman"
-      role: "Photographer"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+#     - image: "assets/img/testimonials/testi4-5.jpg"
+#       name: "Paul Freeman"
+#       role: "Photographer"
+#       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
 
 ### Pricing [ pricing ]
@@ -243,7 +245,6 @@ blog:
 ### Contact [ contacts ]
 contacts:
   title: "연락하기"
-  subtitle: "<b>문의</b>하기"
   bg_title: "Contact Me"
 
   list:
@@ -264,8 +265,7 @@ contacts:
 ### Portfolio [ portfolio ]
 #items generates from dir /_works/*
 portfolio:
-  title: "Portfolio"
-  subtitle: "my <b>Cases</b>"
+  title: "포트폴리오"
   bg_title: "Portfolio"
   button:
     link: "works/"
